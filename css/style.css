@@ -96,10 +96,10 @@ h6 {
   --text-white-color: #ffffff;
   --h-style: "Inter", sans-serif;
   --text-style: "Roboto", sans-serif;
-  --logo-style: "Permanent Marker", cursive;
+  --logo-style: "Dancing Script", sans-serif;
   --hover-color: #0ec164;
-  --box-background: #393953;
-  --logo-color: #a9a9a9d6;
+  --box-background: rgba(57, 57, 83, 0.5);
+  --logo-color: #ffffffd6;
 }
 
 .body {
@@ -109,8 +109,8 @@ h6 {
 
 .logo {
   font-family: var(--logo-style);
-  font-weight: 500;
-  font-size: 38px;
+  font-weight: 700;
+  font-size: 70px;
   color: var(--logo-color);
 
   margin-left: 32px;
@@ -159,7 +159,6 @@ h6 {
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
-  line-height: normal;
   text-decoration: none;
   padding-bottom: 32px;
   padding-top: 32px;
@@ -230,11 +229,69 @@ h6 {
   line-height: 1.5;
 }
 
-/* about us */
-.about-us {
-  padding-top: 200px;
-  padding-bottom: 200px;
+/* also work */
+
+.also-work {
+  padding-top: 150px;
+  padding-bottom: 150px;
   text-align: center;
+}
+
+.also-can-do-title {
+  color: var(--text-white-color);
+  font-family: var(--h-style);
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+.also-work-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.also-work-list .also-work-item + .also-work-item {
+  margin-left: 20px;
+}
+
+.also-work-item {
+  display: block;
+  background-color: var(--box-background);
+  color: var(--text-white-color);
+
+  font-family: var(--text-style);
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 24px;
+
+  width: 270px;
+  justify-content: center;
+}
+
+/* about us */
+
+.about-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-us-box {
+  display: flex;
+}
+
+.about-us-pick {
+  width: 650px;
+  height: 450px;
+}
+
+.about-us-second-box {
+  padding: 50px;
+  height: 450px;
+  margin-left: 30px;
 }
 
 .about-us-title {
@@ -261,52 +318,6 @@ h6 {
   line-height: 24px;
   line-height: 1.33333;
   letter-spacing: 0.01em;
-}
-
-/* also work */
-
-.also-work {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.also-work-box {
-  display: flex;
-}
-
-.also-work-pick {
-  width: 650px;
-  height: 450px;
-}
-
-.also-work-can-do {
-  padding: 50px;
-  height: 450px;
-  margin-left: 30px;
-}
-
-.also-can-do-title {
-  color: var(--text-white-color);
-  font-family: var(--h-style);
-  margin: 0;
-  margin-bottom: 20px;
-
-  font-weight: 700;
-  font-size: 40px;
-  color: #fff;
-}
-
-.also-work-list .also-work-item + .also-work-item {
-  margin-top: 20px;
-}
-
-.also-work-item {
-  color: var(--text-white-color);
-
-  font-family: var(--text-style);
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 24px;
 }
 
 /* footer */
