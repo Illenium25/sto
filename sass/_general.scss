@@ -1,0 +1,31 @@
+.body {
+  background: #030202;
+  font-family: $text-style;
+}
+
+.logo {
+  font-family: $logo-style;
+  font-weight: 700;
+  font-size: 60px;
+  color: $logo-color;
+
+  margin-left: 20px;
+}
+
+.header {
+  background: linear-gradient(rgba(43, 231, 27, 0.4), rgba(0, 0, 0, 0.9));
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(43, 231, 27, 0.4));
+}

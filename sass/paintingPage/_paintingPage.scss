@@ -1,0 +1,34 @@
+.painting {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 700px;
+
+  background-image: url(../images/stripes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.painting__title {
+  color: $text-white-color;
+  font-family: $h-style;
+
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 42px;
+  line-height: 1.07692;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.painting__text {
+  margin-top: 30px;
+  color: $text-white-color;
+
+  font-family: $text-style;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.01em;
+}

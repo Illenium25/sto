@@ -15,41 +15,34 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>LuxuryCustoms</title>
   </head>
   <body class="body">
     <header id="header-section" class="header">
-      <div class="conteiner nav-conteiner">
+      <div class="container nav-conteiner">
         <nav class="navigation">
-          <div class="logo-box">
-            <a class="logo" href="/index.html">LuxuryCustoms</a>
-          </div>
-          <div class="nav-box">
-            <ul class="nav-list">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Main</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./our-work.html">Our Works</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/">Team</a>
-              </li>
-            </ul>
-          </div>
+          <a class="logo" href="/index.html">LuxuryCustoms</a>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="./index.html">Main</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="./our-work.html">Our Works</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
     <main>
-      <section class="our-work">
-        <div class="conteiner">
-          <h2 class="our-work-title">What can we do</h2>
-          <ul class="our-work-list">
-            <li class="our-work-item">
-              <a class="work-box" href="/">
-                <h3 class="work-box-title">Wrapping</h3>
-                <p class="work-box-text">
+      <section class="category">
+        <div class="container">
+          <h2 class="category__title">What can we do</h2>
+          <ul class="category__list">
+            <li class="category__item">
+              <a class="category-box" href="/">
+                <h3 class="category-box__title">Wrapping</h3>
+                <p class="category-box__text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
                   deleniti culpa repudiandae odio sunt delectus veritatis,
                   officia facere voluptate voluptates praesentium laudantium
@@ -58,10 +51,10 @@
                 </p>
               </a>
             </li>
-            <li class="our-work-item">
-              <a class="work-box" href="./work/painting.html">
-                <h3 class="work-box-title">Painting</h3>
-                <p class="work-box-text">
+            <li class="category__item">
+              <a class="category-box" href="/painting.html">
+                <h3 class="category-box__title">Painting</h3>
+                <p class="category-box__text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
                   deleniti culpa repudiandae odio sunt delectus veritatis,
                   officia facere voluptate voluptates praesentium laudantium
@@ -75,15 +68,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="conteiner"></div>
+      <div class="container"></div>
     </footer>
-    <div data-modal class="backdrop is-hidden">
-      <div class="modal">
-        <button class="close-modal" data-modal-close>
-          <span class="modal-button-text">close</span>
-        </button>
-      </div>
-    </div>
-    <script src="./js/modal.js"></script>
   </body>
 </html>
