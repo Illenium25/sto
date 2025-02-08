@@ -95,7 +95,7 @@ h6 {
   font-family: "Dancing Script", sans-serif;
   font-weight: 700;
   font-size: 60px;
-  color: #ff7300;
+  color: rgba(217, 255, 0, 0.8);
   margin-left: 20px;
 }
 
@@ -182,13 +182,16 @@ h6 {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__logo {
   font-family: "Dancing Script", sans-serif;
   font-weight: 700;
   font-size: 45px;
-  color: #ff7300;
+  color: rgba(217, 255, 0, 0.8);
 }
 
 .address {
@@ -208,10 +211,6 @@ h6 {
   font-weight: 700;
   font-size: 15px;
   margin-top: 15px;
-}
-
-.footer-pages__box {
-  margin-left: 100px;
 }
 
 .footer-pages__title {

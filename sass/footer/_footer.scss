@@ -1,6 +1,7 @@
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -27,10 +28,6 @@
   font-weight: 700;
   font-size: 15px;
   margin-top: 15px;
-}
-
-.footer-pages__box {
-  margin-left: 100px;
 }
 
 .footer-pages__title {
