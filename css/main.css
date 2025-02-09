@@ -179,18 +179,19 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__address {
+  text-align: center;
 }
 
 .footer__logo {
   font-family: "Dancing Script", sans-serif;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 50px;
   color: rgba(217, 255, 0, 0.8);
 }
 
@@ -211,46 +212,6 @@ h6 {
   font-weight: 700;
   font-size: 15px;
   margin-top: 15px;
-}
-
-.footer-pages__title {
-  color: #ccd6df;
-  font-family: "Inter", sans-serif;
-  margin-bottom: 40px;
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.footer__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 20px;
-}
-
-.footer__list .footer__item + .footer__item {
-  margin-left: 15px;
-}
-
-.footer__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 40px;
-  height: 40px;
-  background-color: rgb(225, 205, 205);
-  border-radius: 50%;
-}
-
-.footer__icon {
-  width: 40px;
-  height: 40px;
 }
 
 .hero {
@@ -290,21 +251,12 @@ h6 {
   margin-right: auto;
 }
 
-.also-work {
-  padding-top: 100px;
-  padding-bottom: 100px;
+.card {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.also-work__title {
-  color: #ccd6df;
-  font-family: "Inter", sans-serif;
-  margin-bottom: 40px;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-}
-
-.also-work__list {
+.card__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -312,25 +264,37 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 30px;
 }
 
-.also-work__list .also-work__item + .also-work__item {
-  margin-left: 20px;
-}
-
-.also-work__box {
-  display: block;
-  background-color: rgba(57, 57, 83, 0.5);
+.card__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(21, 29, 20, 0.4);
   color: #ccd6df;
-  width: 270px;
+  width: 370px;
+  height: 160px;
+  border-radius: 10px;
 }
 
-.also-work__text {
+.card__info {
+  padding: 20px;
+  width: 370px;
+}
+
+.card__text {
   color: #ccd6df;
   font-family: "Roboto", sans-serif;
+  text-align: center;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 24px;
+  font-size: 26px;
 }
 
 .about-us {
@@ -401,7 +365,7 @@ h6 {
 
 .category-box {
   display: block;
-  background: rgba(57, 57, 83, 0.5);
+  background: rgba(23, 23, 51, 0.5);
   max-width: 100%;
   border-radius: 10px;
   padding: 24px;
