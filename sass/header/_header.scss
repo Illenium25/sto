@@ -1,6 +1,9 @@
 .navigation {
   display: flex;
   align-items: center;
+  @media screen and (max-width: 767px) {
+    justify-content: space-between;
+  }
 }
 
 .header-container {
@@ -11,7 +14,10 @@
 }
 
 .navigation__list {
-  display: flex;
+  display: none;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
   list-style: none;
   margin-left: 70px;
 }
@@ -58,9 +64,12 @@
 }
 
 .header-pages__list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: none;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .header-pages__list .header-pages__item + .header-pages__item {
