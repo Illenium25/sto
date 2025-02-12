@@ -4,7 +4,10 @@
 }
 
 .also__thumb {
-  display: block;
+  display: none;
+  @media screen and (min-width: $desktop) {
+    display: block;
+  }
   border-radius: 20px;
 }
 
