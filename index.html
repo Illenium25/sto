@@ -19,8 +19,8 @@
     <title>LuxuryCustoms</title>
   </head>
   <body class="body">
-    <header id="header-section" class="header">
-      <div class="container nav-conteiner">
+    <header class="header">
+      <div class="container header-container">
         <nav class="navigation">
           <a class="logo" href="/index.html">LuxuryCustoms</a>
           <ul class="navigation__list">
@@ -32,6 +32,25 @@
             </li>
           </ul>
         </nav>
+        <ul class="header-pages__list">
+          <li class="header-pages__item">
+            <a class="header-pages__link" href="https://t.me/+12538881925">
+              <svg class="header-pages__icon">
+                <use href="./images/sprite/sprite.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-pages__item">
+            <a
+              class="header-pages__link"
+              href="https://www.facebook.com/share/1EUSdve34e/?mibextid=wwXIfr"
+            >
+              <svg class="header-pages__icon">
+                <use href="./images/sprite/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -39,88 +58,66 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">Painting & Wrapping Car</h1>
-          <p class="hero__text">
-            We are an architecture firm with a focus on beautiful but functional
-            design. At its heart, we believe design is about usability and
-            accessibility — these are the guiding principles for our work. Read
-            more about our previous projects, our process and our team below.
-          </p>
+          <p class="hero__text"></p>
         </div>
       </section>
-      <!-- card-->
-      <section class="card">
-        <div class="container">
-          <ul class="card__list">
-            <li class="card__item">
-              <div class="card__box">
-                <img src="./images/ico1.png" alt="" width="150" height="90" />
-              </div>
-              <div class="card__info">
-                <p class="card__text">Cash and non-cash payments</p>
-              </div>
-            </li>
-            <li class="card__item">
-              <div class="card__box">
-                <img src="./images/ico2.png" alt="" width="70" height="70" />
-              </div>
-              <div class="card__info">
-                <p class="card__text">Technical assistance and advice</p>
-              </div>
-            </li>
-            <li class="card__item">
-              <div class="card__box">
-                <img src="./images/ico3.png" alt="" width="100" height="70" />
-              </div>
-              <div class="card__info">
-                <p class="card__text">
-                  I am always in touch from 9:00 to 18:00!
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- also -->
-      <section>
-        <div class="container">
-          <h2 class="also-work__title">We Also Can Do</h2>
-          <ul class="also-work__list">
-            <li class="also-work__item">
-              <p class="also-work__text"></p>
-            </li>
-            <li class="also-work__item">
-              <p class="also-work__text"></p>
-            </li>
-            <li class="also-work__item">
-              <p class="also-work__text"></p>
-            </li>
-            <li class="also-work__item">
-              <p class="also-work__text"></p>
-            </li>
-          </ul>
-        </div>
-      </section>
+
       <!-- about us -->
       <section class="about-us">
         <div class="container">
-          <div class="about-us__box">
-            <div class="about-us__left">
+          <h2 class="title">about us</h2>
+          <p class="about-us__text">
+            LuxuryCustomBodyWorkShop LLC is a premier car designing company that
+            specializes in enhancing the aesthetics and functionality of
+            high-end vehicles. We do everything from vehicle wrapping to window
+            tint.
+          </p>
+        </div>
+      </section>
+      <!-- also -->
+      <section class="also">
+        <div class="container">
+          <div class="also__box">
+            <div class="also__left">
               <img
-                class="about-us__thumb"
+                class="also__thumb"
                 src="./images/section-pick.jpg"
                 alt=""
-                width="650"
-                height="450"
+                width="600"
+                height="400"
               />
             </div>
-            <div class="about-us__right">
-              <h2 class="about-us__title">about us</h2>
-              <p class="about-us__text">
-                LuxuryCustomBodyWorkShop LLC is a premier car designing company
-                that specializes in enhancing the aesthetics and functionality
-                of high-end vehicles. We do everything from vehicle wrapping to
-                window tint.
-              </p>
+            <div class="also__right">
+              <h2 class="also__title">Services</h2>
+              <ul class="also__list">
+                <li class="also__item">
+                  <div class="also-point">
+                    <h3 class="also-point__title">
+                      1. Types of painting (full, local, restorative)
+                    </h3>
+                    <p class="also-point__text">
+                      I use only high-quality and proven products.
+                    </p>
+                  </div>
+                </li>
+                <li class="also__item">
+                  <div class="also-point">
+                    <h3 class="also-point__title">2. Tips and tricks</h3>
+                    <p class="also-point__text">
+                      I can give you advice on car maintenance.
+                    </p>
+                  </div>
+                </li>
+                <li class="also__item">
+                  <div class="also-point">
+                    <h3 class="also-point__title">3. Оnline diagnostics</h3>
+                    <p class="also-point__text">
+                      You can discuss all the details with me by phone or
+                      telegram.
+                    </p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
