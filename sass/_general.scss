@@ -14,7 +14,7 @@
 }
 
 .header {
-  min-width: $mobile;
+  max-width: 100%;
   background: linear-gradient(rgba(43, 231, 27, 0.4), rgba(0, 0, 0, 0.9));
   @media screen and (max-width: 767px) {
     padding-top: 15px;
@@ -23,7 +23,7 @@
 }
 
 .container {
-  min-width: $mobile;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -40,7 +40,7 @@
 }
 
 .footer {
-  min-width: $mobile;
+  max-width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(43, 231, 27, 0.4));
