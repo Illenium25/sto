@@ -17,6 +17,16 @@
 .header {
   max-width: 100%;
   background: linear-gradient(rgba(43, 231, 27, 0.4), rgba(0, 0, 0, 0.9));
+
+  position: relative;
+}
+
+.header-container {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   @media screen and (max-width: 767px) {
     padding-top: 15px;
     padding-bottom: 15px;
