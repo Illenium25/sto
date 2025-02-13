@@ -3,18 +3,6 @@
 
   padding-top: 150px;
   padding-bottom: 150px;
-  background-image: url(../images/hero/hero-mobile1x.jpg);
-  @media screen and (min-resolution: 2dppx) {
-    background-image: url(../images/hero/hero-mobile2x.jpg);
-  }
-
-  @media screen and (min-width: $tablet) {
-    background-image: url(../images/hero/hero-tablet1x.jpg);
-
-    @media screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero/hero-tablet2x.jpg);
-    }
-  }
 
   @media screen and (min-width: $desktop) {
     background-image: url(../images/hero/hero-desktop1x.jpg);

@@ -94,25 +94,36 @@ h6 {
 .logo {
   font-family: "Dancing Script", sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 30px;
   color: rgba(217, 255, 0, 0.8);
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    font-size: 60px;
+  }
 }
 
 .header {
+  min-width: 450px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 231, 27, 0.4)), to(rgba(0, 0, 0, 0.9)));
   background: linear-gradient(rgba(43, 231, 27, 0.4), rgba(0, 0, 0, 0.9));
 }
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 20px;
+  }
+}
 
 .container {
-  min-width: 390px;
+  width: 450px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
 }
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 450px) {
   .container {
-    width: 390px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -127,6 +138,7 @@ h6 {
 }
 
 .footer {
+  min-width: 450px;
   padding-top: 50px;
   padding-bottom: 50px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(43, 231, 27, 0.4)));
@@ -173,7 +185,6 @@ h6 {
 }
 
 .header-container {
-  min-width: 390px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -296,7 +307,7 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 390px;
+  min-width: 450px;
 }
 
 .footer__address {
@@ -330,30 +341,14 @@ h6 {
 }
 
 .hero {
-  min-width: 390px;
+  min-width: 450px;
   padding-top: 150px;
   padding-bottom: 150px;
-  background-image: url(../images/hero/hero-mobile1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin-right: auto;
   margin-left: auto;
-}
-@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../images/hero/hero-mobile2x.jpg);
-  }
-}
-@media screen and (min-width: 768px) {
-  .hero {
-    background-image: url(../images/hero/hero-tablet1x.jpg);
-  }
-}
-@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../images/hero/hero-tablet2x.jpg);
-  }
 }
 @media screen and (min-width: 1200px) {
   .hero {
@@ -381,7 +376,7 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 450px) {
   .hero__title {
     font-size: 50px;
   }
