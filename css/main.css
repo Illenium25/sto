@@ -104,6 +104,13 @@ h6 {
   }
 }
 
+.menu-logo {
+  color: rgba(217, 255, 0, 0.8);
+  font-family: "Dancing Script", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
 .header {
   max-width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 231, 27, 0.4)), to(rgba(0, 0, 0, 0.9)));
@@ -364,8 +371,25 @@ h6 {
   color: #fff;
 }
 
+.menu-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .navigation-mob {
   display: block;
+}
+
+.navigation-mob__list {
+  margin-top: 50px;
 }
 
 .navigation-mob__list .navigation-mob__item + .navigation-mob__item {
@@ -387,6 +411,27 @@ h6 {
 }
 .navigation-mob__link.current {
   color: rgba(43, 255, 0, 0.8);
+}
+
+.mobile-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-page .mobile-page__item + .mobile-page__item {
+  margin-left: 20px;
+}
+
+.mobile-page__link {
+  font-family: "Roboto", sans-serif;
+  color: rgba(217, 255, 0, 0.8);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 28px;
 }
 
 .footer-container {

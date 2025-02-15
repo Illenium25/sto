@@ -1,5 +1,15 @@
+.menu-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .navigation-mob {
   display: block;
+}
+
+.navigation-mob__list {
+  margin-top: 50px;
 }
 
 .navigation-mob__list .navigation-mob__item + .navigation-mob__item {
@@ -25,4 +35,21 @@
   &.current {
     color: $hover-color;
   }
+}
+
+.mobile-page {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-page .mobile-page__item + .mobile-page__item {
+  margin-left: 20px;
+}
+
+.mobile-page__link {
+  font-family: $text-style;
+  color: $logo-color;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 28px;
 }
